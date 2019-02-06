@@ -1,0 +1,5 @@
+D:\Work\BackendExam\BackendExamModel\bin\Debug\BackendExamModel.dll
+D:\Work\BackendExam\BackendExamModel\bin\Debug\BackendExamModel.pdb
+D:\Work\BackendExam\BackendExamModel\obj\Debug\BackendExamModel.csproj.CoreCompileInputs.cache
+D:\Work\BackendExam\BackendExamModel\obj\Debug\BackendExamModel.dll
+D:\Work\BackendExam\BackendExamModel\obj\Debug\BackendExamModel.pdb

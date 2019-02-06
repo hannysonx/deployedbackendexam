@@ -1,0 +1,45 @@
+﻿@using BackendExamModel;
+@model List<User>
+@{
+    Custom2IPrincipal userLoggedin = User as Custom2IPrincipal;
+    ViewBag.Title = "Home Page";
+}
+
+@if (userLoggedin.admin_yn)
+{
+    <button type="button" class="btn btn-primary pull-right" id="btnAddClient" style="margin-top: 10px; margin-right: -15px;">Add Client</button>
+
+    <div class="row" style="margin-top: 50px;">
+        <table id="tblUsers" class="table table-striped table-bordered" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone No.</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (User user in Model)
+                {
+                    <tr data-user-id="@user.user_id">
+                        <td>@user.first_nm @user.last_nm</td>
+                        <td>@user.email_ad</td>
+                        <td>@user.phone_nb</td>
+                        <td width="12%">
+                            <button class="btn btn-sm btn-success" data-btnedit-yn="true">Edit</button>
+                            <button class="btn btn-sm btn-danger" data-btndelete-yn="true">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <button type="button" class="btn btn-primary" id="btnShowProfile" data-user-id="@userLoggedin.user_id" style="margin-top: 10px; margin-right: -15px;">Show My Profile</button>
+}
+
+<script src="~/Scripts/page/modal.js"></script>
+<script src="~/Scripts/page/home.js"></script>

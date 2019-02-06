@@ -1,0 +1,14 @@
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\BackendExamDAL.dll.config
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\BackendExamDAL.dll
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\BackendExamDAL.pdb
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\BackendExamModel.dll
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\EntityFramework.dll
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\BackendExamModel.pdb
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\EntityFramework.xml
+D:\Work\BackendExam\BackendExamDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\BackendExam\BackendExamDAL\obj\Debug\BackendExamDAL.csprojAssemblyReference.cache
+D:\Work\BackendExam\BackendExamDAL\obj\Debug\BackendExamDAL.csproj.CoreCompileInputs.cache
+D:\Work\BackendExam\BackendExamDAL\obj\Debug\BackendExamDAL.csproj.CopyComplete
+D:\Work\BackendExam\BackendExamDAL\obj\Debug\BackendExamDAL.dll
+D:\Work\BackendExam\BackendExamDAL\obj\Debug\BackendExamDAL.pdb

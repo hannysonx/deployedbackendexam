@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row" style="margin-top: 50px;">
+    <div class="col-sm-4"></div>
+    <div class="well col-sm-4">
+        @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { id = "frmLogin", data_url_content = Url.Content("~/") }))
+        {
+            @*@Html.AntiForgeryToken();*@
+            <div class="form-group">
+                <label for="txtUsername" class="control-label">Please enter your username:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="" id="txtUsername" placeholder="Username">
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-primary" id="btnLogin">LOGIN</button>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+
+<script src="~/Scripts/page/login.js"></script>
